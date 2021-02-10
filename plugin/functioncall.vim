@@ -24,7 +24,7 @@ function! s:FunctionCallTextObj() abort
         endif
     endwhile
 
-    if l:start_col == -1
+    if l:end_col == -1
         return
     endif
 
